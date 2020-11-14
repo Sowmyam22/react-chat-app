@@ -30,7 +30,7 @@ function ChatForm() {
       <textarea 
         className="rounded p-4" 
         rows={3} 
-        cols={100} 
+        cols={90} 
         placeholder="Please type here..." 
         onChange={(e) => setValue(e.target.value)}
         onKeyUp={handleEnter}
